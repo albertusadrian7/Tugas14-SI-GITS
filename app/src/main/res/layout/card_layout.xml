@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_layout"
+    android:layout_marginVertical="10dp"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="10dp"
+    >
+
+    <RelativeLayout
+        android:id="@+id/relative_layout"
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        android:gravity="center_vertical"
+        android:layout_gravity="center"
+        android:padding="10dp">
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/gambarNovel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:layout_marginEnd="15dp"
+            android:src="@drawable/tokillamockingbird"
+            app:shapeAppearanceOverlay="@style/RoundedSquare" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/gambarNovel"
+            android:layout_alignTop="@+id/gambarNovel"
+            android:layout_toEndOf="@+id/gambarNovel"
+            android:layout_toRightOf="@+id/gambarNovel"
+            android:orientation="vertical"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/judulNovel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="To Kill A Mockingbird"
+                android:textColor="@color/primary_blue"
+                android:fontFamily="@font/poppins_bold"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/penulis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/judulNovel"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="Harper Lee"
+                android:textColor="@color/primary_blue"
+                android:textSize="12sp"
+                />
+
+            <TextView
+                android:id="@+id/harga"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/penulis"
+                android:fontFamily="@font/poppins"
+                android:text="Rp 179.000"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
