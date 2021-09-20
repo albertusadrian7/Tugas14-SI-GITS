@@ -3,9 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/DUTA WACANA/Semester 5/Gits Kotlin/Tugas Week 12/AlbertusAdrian_DearNovel/app/src/main/res/drawable/card_box.xml" value="0.1" />
+        <entry key="..\:/DUTA WACANA/Semester 5/Gits Kotlin/Tugas Week 12/AlbertusAdrian_DearNovel/app/src/main/res/drawable/custom_button.xml" value="0.2755208333333333" />
+        <entry key="..\:/DUTA WACANA/Semester 5/Gits Kotlin/Tugas Week 12/AlbertusAdrian_DearNovel/app/src/main/res/layout/activity_detail.xml" value="0.264" />
         <entry key="..\:/DUTA WACANA/Semester 5/Gits Kotlin/Tugas Week 12/AlbertusAdrian_DearNovel/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/DUTA WACANA/Semester 5/Gits Kotlin/Tugas Week 12/AlbertusAdrian_DearNovel/app/src/main/res/layout/card_item.xml" value="0.259375" />
-        <entry key="..\:/DUTA WACANA/Semester 5/Gits Kotlin/Tugas Week 12/AlbertusAdrian_DearNovel/app/src/main/res/layout/card_layout.xml" value="0.264" />
+        <entry key="..\:/DUTA WACANA/Semester 5/Gits Kotlin/Tugas Week 12/AlbertusAdrian_DearNovel/app/src/main/res/layout/card_layout.xml" value="0.1" />
+        <entry key="..\:/DUTA WACANA/Semester 5/Gits Kotlin/Tugas Week 12/AlbertusAdrian_DearNovel/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.18055555555555555" />
       </map>
     </option>
   </component>

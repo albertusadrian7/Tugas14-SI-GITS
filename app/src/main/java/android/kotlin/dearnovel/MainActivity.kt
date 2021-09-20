@@ -10,13 +10,13 @@ class MainActivity : AppCompatActivity() {
     // Membuat object layoutManager
     private var layoutManager: RecyclerView.LayoutManager? = null
     // Membuat object adapter
-    private var adapter: RecyclerView.Adapter<RecyclerAdapter.ViewHolder>? = null
+    private var adapter: RecyclerView.Adapter<NovelAdapter.ViewHolder>? = null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         layoutManager = LinearLayoutManager(this)
         recycler_view.layoutManager = layoutManager
-        adapter = RecyclerAdapter()
+        adapter = NovelAdapter()
         recycler_view.adapter = adapter
     }
 }
